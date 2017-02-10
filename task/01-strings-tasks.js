@@ -201,9 +201,9 @@ function extractEmails(str) {
  *
  */
 function getRectangleString(width, height) {
-    let firstline = '┌'+'─'.repeat(width-2)+'┐\n',
-	    middleline = '|'+' '.repeat(width-2)+'|\n',
-	    lastline = '└'+'─'.repeat(width-2)+'┘\n';
+    let firstline  = '┌' + '─'.repeat(width-2) + '┐\n',
+        middleline = '|' + ' '.repeat(width-2) + '|\n',
+        lastline   = '└' + '─'.repeat(width-2) + '┘\n';
     return firstline + middleline.repeat(height-2) + lastline;
 }
 
@@ -224,7 +224,20 @@ function getRectangleString(width, height) {
  *
  */
 function encodeToRot13(str) {
-    throw new Error('Not implemented');
+    let nindex = "n".charCodeAt(0),
+        Nindex = "N".charCodeAt(0),
+        result = "";
+    for (var i = 0; i <= str.length - 1; i++) {
+        let index = (str.charAt(i)).charCodeAt(0);
+        if ( ((index >= Nindex - 13) && (index < Nindex)) || ((index >= nindex - 13) && (index < nindex)) ) {
+        index = index + 13;
+        } else if ( ((index >= Nindex) && (index < Nindex + 13)) || ((index >= nindex) && (index < nindex + 13)) ) {
+        index = index - 13;
+        } else {
+        }
+        result += String.fromCharCode(index);
+    }
+    return result;
 }
 
 /**
