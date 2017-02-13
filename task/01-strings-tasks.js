@@ -283,7 +283,9 @@ function isString(value) {
  *   'K♠' => 51
  */
 function getCardId(value) {
-    throw new Error('Not implemented');
+    let suits = "♣♦♥♠",
+        faces = "A234567890JQK";
+    return faces.indexOf(value.slice(-2, -1)) + suits.indexOf(value.slice(-1))*13;
 }
 
 
