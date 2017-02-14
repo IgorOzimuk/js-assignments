@@ -205,9 +205,9 @@ function isPrime(n) {
     let result = true;
     for (let i = 2; i <= n/2; i++) {
         if (n % i == 0) {
-			result = false;
-			break;
-		}
+            result = false;
+            break;
+        }
     }
     return result;
 }
@@ -228,7 +228,7 @@ function isPrime(n) {
  *   toNumber(new Number(42), 0) => 42
  */
 function toNumber(value, def) {
-    throw new Error('Not implemented');
+    return parseFloat(value) || def;
 }
 
 module.exports = {
