@@ -22,7 +22,7 @@
  *    'Sun, 17 May 1998 03:00:00 GMT+01' => Date()
  */
 function parseDataFromRfc2822(value) {
-    return new Date(value);
+    throw new Error('Not implemented');
 }
 
 /**
@@ -81,7 +81,7 @@ function isLeapYear(date) {
  *    Date(2000,1,1,10,0,0),  Date(2000,1,1,15,20,10,453)   => "05:20:10.453"
  */
 function timeSpanToString(startDate, endDate) {
-   throw new Error('Not implemented');
+    return new Date(endDate - startDate).toISOString().slice(-13, -1);
 }
 
 
@@ -99,7 +99,14 @@ function timeSpanToString(startDate, endDate) {
  *    Date.UTC(2016,3,5,21, 0) => Math.PI/2
  */
 function angleBetweenClockHands(date) {
-    throw new Error('Not implemented');
+    const Hours = new Date(date).getUTCHours() % 12,
+          Minutes = new Date(date).getUTCMinutes();
+    let   Angle = Math.abs((Hours + Minutes/60)* Math.PI / 6 - Minutes * Math.PI / 30);
+    if (Angle > Math.PI) {
+        return Angle = Angle - Math.PI;
+    } else {
+        return Angle;
+    }
 }
 
 
