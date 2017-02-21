@@ -142,7 +142,7 @@ function getStringsLength(arr) {
  * @param {number} index 
  * 
  * @example
- *    [ 1, 3, 4, 5 ], 2, 1  => [ 1, 2, 3, 4, 5 ]
+ *    [ 1, 3, 4, 5 ], 1, 2  => [ 1, 2, 3, 4, 5 ]
  *    [ 1, 'b', 'c'], 0, 'x'  => [ 'x', 1, 'b', 'c' ]
  */
 function insertItem(arr, item, index) {
