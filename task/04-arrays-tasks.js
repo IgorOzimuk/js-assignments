@@ -294,7 +294,7 @@ function propagateItemsByPositionIndex(arr) {
  *   [ 10, 10, 10, 10 ] => [ 10, 10, 10 ]
  */
 function get3TopItems(arr) {
-    return arr.sort((a, b) => b-a);
+    return arr.sort((a, b) => b-a).slice(0, 3);
 }
  
  
@@ -328,7 +328,8 @@ function getPositivesCount(arr) {
  *   [ 'one','one','one','zero' ]     => [ 'zero','one','one','one' ]
  */
 function sortDigitNamesByNumericOrder(arr) {
-   throw new Error('Not implemented');
+    let str = ['zero','one','two','three','four','five','six','seven','eight','nine'];
+    return arr.sort((a, b) => str.indexOf(a)-str.indexOf(b));
 }
 
 /** 
@@ -344,7 +345,7 @@ function sortDigitNamesByNumericOrder(arr) {
  *   [ 1, 10, 100, 1000 ]  => 1111
  */
 function getItemsSum(arr) {
-   throw new Error('Not implemented');
+    return arr.reduce((prev, cur) => prev + cur, 0);
 }
  
 /** 
