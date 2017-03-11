@@ -529,7 +529,7 @@ function group(array, keySelector, valueSelector) {
  *   ['one','two','three'], x=>x.split('')  =>   ['o','n','e','t','w','o','t','h','r','e','e']
  */
 function selectMany(arr, childrenSelector) {
-    throw new Error('Not implemented');
+    return arr.reduce((pre, cur) => pre.concat(childrenSelector(cur)), []);
 }
 
 
@@ -546,7 +546,7 @@ function selectMany(arr, childrenSelector) {
  *   [[[ 1, 2, 3]]], [ 0, 0, 1 ]      => 2        (arr[0][0][1])
  */
 function getElementByIndexes(arr, indexes) {
-    throw new Error('Not implemented');
+    return indexes.reduce((p, c) => p[c], arr);
 }
 
 
@@ -569,7 +569,10 @@ function getElementByIndexes(arr, indexes) {
  * 
  */
 function swapHeadAndTail(arr) {
-    throw new Error('Not implemented');
+    let half = Math.floor(arr.length/2),
+        result = arr.slice(-half).concat(arr.slice(0, half));
+    if(arr.length % 2 != 0) result.splice(half, 0, arr[half]);
+    return result;
 }
 
 
