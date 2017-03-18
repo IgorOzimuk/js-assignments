@@ -1,0 +1,290 @@
+[33mcommit ceddd33eb035a94c2fff71dcf6677d26158bb8ce[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Mar 17 22:21:01 2017 +0300
+
+    travis
+
+[33mcommit 2173d57042f4efa0a990ea8bba6c64734dcb6806[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Mar 17 22:10:36 2017 +0300
+
+    05.another way
+
+[33mcommit b6d84d00df7ff1a117674388e6c1bcf305c2a33c[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Mar 17 21:20:08 2017 +0300
+
+    05
+
+[33mcommit 36f922ba375fda9aa2441954c4ada4b0720789b8[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Mar 17 21:04:03 2017 +0300
+
+    05.
+
+[33mcommit 1c69316961913749f7c99ffb4dddac0a6b612823[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Mar 17 19:42:12 2017 +0300
+
+    05.full
+
+[33mcommit e48e8af90680ed54cd84cf50b491e17f254082e9[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Wed Mar 15 22:17:30 2017 +0300
+
+    05.2-3
+
+[33mcommit fa52019489656ea2461316c66d1569b3f5ed0b01[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Mar 13 21:25:31 2017 +0300
+
+    05.Start
+
+[33mcommit f56b99ef4559e1b3e38cd4f18844e68d790f37c9[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sat Mar 11 22:24:40 2017 +0300
+
+    04
+
+[33mcommit 58c30d57ac04d08c858c31226b8d9295a71e547e[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sat Mar 11 22:18:11 2017 +0300
+
+    04.full
+
+[33mcommit 40b4ea96a847d3316f6870c8366fa01e377be702[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sat Mar 11 19:26:07 2017 +0300
+
+    04.group(Map!!!)
+
+[33mcommit ea8d902e9c225493651018e0717c8dea724ec7ef[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Thu Mar 9 19:39:30 2017 +0300
+
+    04.propagateItemsByPositionIndex
+
+[33mcommit 729c281951b99bc050b81ed70a1f76c95d91afe6[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 27 22:37:49 2017 +0300
+
+    04.-3
+
+[33mcommit 0e53a8d5f1c6ce0b8aae7b30c14769d890671428[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sun Feb 26 18:11:37 2017 +0300
+
+    04.15
+
+[33mcommit 0d9bf24257b3137f7be64ad66ef8054e780e691b[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 24 21:34:26 2017 +0300
+
+    04.getItemsSum
+
+[33mcommit 4fd11ac2ba9fd2816678f5e583656d2432ff9404[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Thu Feb 23 20:10:55 2017 +0300
+
+    04.Some fix
+
+[33mcommit 5a3c5f145ab77b62425bead5d59b89d39db0aacd[m
+Merge: 0feb40e 9afbe8a
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 21 22:08:08 2017 +0300
+
+    Merge branch 'master' of https://github.com/IgorOzimuk/js-assignments into rolling-scopes-school/master
+
+[33mcommit 0feb40e264aa4e6963a4055d87d7fb41d619af92[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 21 22:05:07 2017 +0300
+
+    04. till getMovingSum
+
+[33mcommit 9afbe8a85b8f7fba22427b378bf742941b9adfef[m
+Author: IgorOzimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 20 21:10:21 2017 +0300
+
+    Update 04-arrays-tasks.js
+    
+    04. example function insertItem
+
+[33mcommit f5347fcaa6263ec07cd0f396a37333ffcc1b08f2[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 20 20:42:28 2017 +0300
+
+    04.some
+
+[33mcommit 32e7e154d6e2fce90f28fb16633c85a9f0a82e3f[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sun Feb 19 22:43:07 2017 +0300
+
+    04.01
+
+[33mcommit 46c24744decf4a05a35657b079de05c0cef17650[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sun Feb 19 22:39:10 2017 +0300
+
+    04.first
+
+[33mcommit 5ed39f901e5fea941745ea9728e9d31e65fad348[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sun Feb 19 17:30:48 2017 +0300
+
+    03
+
+[33mcommit e8145ae8f1e0a11568881c9fd81cf3d5a5d07879[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Sun Feb 19 17:07:52 2017 +0300
+
+    03.Without parseDataFromRfc2822
+
+[33mcommit 8fd69793c99f22beed8ff14756c17abe53f0cfb9[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 17 20:05:03 2017 +0300
+
+    03. Change parseDataFromRfc2822
+
+[33mcommit f34c4ab8d59b6cf29031ac76de666884b6fa4eef[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Thu Feb 16 20:01:18 2017 +0300
+
+    03.isLeapYear
+
+[33mcommit b1ed4eb24a4b656ab38cedff17dbca08c6a18164[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 14 21:13:56 2017 +0300
+
+    02.parseFloat
+
+[33mcommit 3f0680a60af5865d61ef9fa86cd97fabf2fdbab7[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 14 20:50:06 2017 +0300
+
+    Change 02.getAverage and isPrime
+
+[33mcommit bbc53790b7f62320d5846626bb65769113cb1322[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 14 20:23:12 2017 +0300
+
+    02. without toNumber
+
+[33mcommit 6d8f792e1c220cbf0ee3654bd74e1b3fea61ecfc[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 13 20:00:30 2017 +0300
+
+    01.isString
+
+[33mcommit 3c9464dd4b15561ca76f78f07d3a95226fa4d7f9[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 13 18:13:15 2017 +0300
+
+    01.getCardId
+
+[33mcommit 9b43a0670a7da91e33820437a9d2c73e8904fae5[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 10 19:10:42 2017 +0300
+
+    01.10
+
+[33mcommit ee3ecd75d48ce7b24dec33882457939a14682075[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 10 19:04:50 2017 +0300
+
+    01.getRectangleString4
+
+[33mcommit 7d7c3b3d59e3577fa721ea648290a97021dafa8f[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 10 18:55:12 2017 +0300
+
+    01.getRectangleString3
+
+[33mcommit 60f43ec8bf56b7d046f7a9fbb3e9e0bec36378fb[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 10 18:49:18 2017 +0300
+
+    01
+
+[33mcommit 0a446fd168ddd48011219a94d3b16f9ba90c19cd[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Fri Feb 10 18:42:23 2017 +0300
+
+    01.encodeToRot13
+
+[33mcommit dd1bd020577b83ccc8592d1f37367ba0ed27e4e2[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Wed Feb 8 21:19:45 2017 +0300
+
+    01.getRectangleString
+
+[33mcommit 418accc57fc19a79eeb4919a2fbac56af83e7bf1[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 7 21:27:48 2017 +0300
+
+    01.03-11
+
+[33mcommit ab28ef0a823b60a5fb7cbb8d4bdb57dd65fa8c13[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Tue Feb 7 19:47:37 2017 +0300
+
+    01.02 strings
+
+[33mcommit bddbc3402256a977eeebc35c26a47637870c42e4[m
+Merge: a2655df 7f412bf
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 6 22:39:28 2017 +0300
+
+    Merge branch 'master' of https://github.com/IgorOzimuk/js-assignments into rolling-scopes-school/master
+
+[33mcommit a2655df95b206383b57b2f608f9d7c5aa6faccae[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 6 22:08:37 2017 +0300
+
+    01.01 Add first commit in strings
+
+[33mcommit 7f412bfb6a562172b3ffe2b10d3c5573cd71e5d0[m
+Author: IgorOzimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 6 21:43:54 2017 +0300
+
+    Update 01-strings-tasks.js
+
+[33mcommit ccd93d8e375f3c554b48b97f2edd5f5c10828732[m
+Merge: c1f5a10 1aad685
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Mon Feb 6 21:20:46 2017 +0300
+
+    Merge remote-tracking branch 'refs/remotes/origin/master' into rolling-scopes-school/master
+
+[33mcommit c1f5a10757ee76d999dca51a29b41fd851691350[m
+Merge: 8251c12 b1c1d88
+Author: Dzmtiry Varabei <dzmitry.varabei@gmail.com>
+Date:   Wed Nov 30 13:39:05 2016 +0300
+
+    Merge pull request #20 from rolling-scopes-school/fix-tests
+    
+    Fix tests
+
+[33mcommit b1c1d8861695451cf84ba836b6fa6f8269737035[m
+Author: Dzmitry Varabei <dzmitry.varabei@gmail.com>
+Date:   Thu Nov 24 20:51:08 2016 +0300
+
+    fix wrong usage of increment operator
+
+[33mcommit 7e296b515c42da253f90867e8aec7e54d957d78d[m
+Author: Dzmitry Varabei <dzmitry.varabei@gmail.com>
+Date:   Thu Nov 24 20:04:41 2016 +0300
+
+    Fix a wrong test assert for parseDataFromIso8601 function
+    
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
+
+[33mcommit 1aad685b4bf2ec29994a7bb7b80b365c455742b4[m
+Merge: 4fe6685 c0539c1
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Wed Apr 6 20:58:18 2016 +0300
+
+    Merge branch 'master' of https://github.com/IgorOzimuk/js-assignments
+
+[33mcommit 4fe6685899443922d99d940652b7ab80c252fa3b[m
+Author: Igor Ozimuk <a.rmiya2012@gmail.com>
+Date:   Wed Apr 6 20:49:38 2016
