@@ -30,9 +30,9 @@
  *
  */
 function getFizzBuzz(num) {
-    if (num % 3 == 0) return 'Fizz';
-    if (num % 5 == 0) return 'Buzz';
     if (num % 15 == 0) return 'FizzBuzz';
+    if (num % 5 == 0) return 'Buzz';
+    if (num % 3 == 0) return 'Fizz';
     return num;
 }
 
@@ -163,7 +163,7 @@ function doRectanglesOverlap(rect1, rect2) {
  *   
  */
 function isInsideCircle(circle, point) {
-    return Math.hypot(point.x - circle.center.x, point.y - circle.center.y) <= circle.radius;
+    return Math.hypot(point.x - circle.center.x, point.y - circle.center.y) < circle.radius;
 }
 
 
