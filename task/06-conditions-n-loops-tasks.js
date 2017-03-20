@@ -179,7 +179,14 @@ function isInsideCircle(circle, point) {
  *   'entente' => null
  */
 function findFirstSingleChar(str) {
-    throw new Error('Not implemented');
+    for (let i = 0; i <= str.length; i++) {
+        let counter = 0;
+        for (let j = 0; j < str.length; j++) {
+            if (str[i] == str[j]) counter++;
+        }
+        if (counter == 1) return str[i];
+    }
+    return null;
 }
 
 
@@ -205,7 +212,11 @@ function findFirstSingleChar(str) {
  *
  */
 function getIntervalString(a, b, isStartIncluded, isEndIncluded) {
-    throw new Error('Not implemented');
+    let result = '';
+    (isStartIncluded) ? result += '[' : result += '(';
+    (a > b) ? result += b + ', ' + a : result += a + ', ' + b;
+    (isEndIncluded) ? result += ']' : result += ')';
+    return result;
 }
 
 
