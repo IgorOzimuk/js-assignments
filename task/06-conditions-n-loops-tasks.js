@@ -394,17 +394,21 @@ function timespanToHumanString(startDate, endDate) {
           MONTHS = 30 * DAYS,
           YEARS = 12 * MONTHS;
     let timespan = endDate.getTime() - startDate.getTime();
+    function roundToLower(num) {
+        if (num - Math.floor(num) > 0.5) return Math.round(num);
+        return Math.floor(num);
+    }
     if (timespan <= 45*SECONDS) return 'a few seconds ago';
     if (timespan <= 90*SECONDS) return 'a minute ago';
-    if (timespan <= 45*MINUTES) return `${Math.round(timespan / MINUTES)} minutes ago`;
+    if (timespan <= 45*MINUTES) return `${roundToLower(timespan / MINUTES)} minutes ago`;
     if (timespan <= 90*MINUTES) return 'an hour ago';
-    if (timespan <= 22*HOURS) return `${Math.round(timespan / HOURS)} hours ago`;
+    if (timespan <= 22*HOURS) return `${roundToLower(timespan / HOURS)} hours ago`;
     if (timespan <= 36*HOURS) return 'a day ago';
-    if (timespan <= 25*DAYS) return `${Math.round(timespan / DAYS)} days ago`;
+    if (timespan <= 25*DAYS) return `${roundToLower(timespan / DAYS)} days ago`;
     if (timespan <= 45*DAYS) return 'a month ago';
-    if (timespan <= 345*DAYS) return `${Math.round(timespan / MONTHS)} months ago`;
+    if (timespan <= 345*DAYS) return `${roundToLower(timespan / MONTHS)} months ago`;
     if (timespan <= 545*DAYS) return 'a year ago';
-    if (timespan > 545*DAYS) return `${Math.round(timespan / YEARS)} years ago`;
+    if (timespan > 545*DAYS) return `${roundToLower(timespan / YEARS)} years ago`;
 }
 
 
